@@ -1,0 +1,28 @@
+{
+  "name": "find-next-file-name",
+  "version": "1.0.0",
+  "description": "Add number in parentheses to file name if in specified location a file with given name already exists.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UnnamedXAer/find-next-file-name.git"
+  },
+  "keywords": [
+    "filename",
+    "directory",
+    "next-file-name",
+    "pathname"
+  ],
+  "author": "unnamedxaer@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UnnamedXAer/find-next-file-name/issues"
+  },
+  "homepage": "https://github.com/UnnamedXAer/find-next-file-name#readme",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
