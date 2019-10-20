@@ -1,6 +1,6 @@
 {
   "name": "find-next-file-name",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Add number in parentheses to file name if in specified location a file with given name already exists.",
   "main": "index.js",
   "scripts": {
