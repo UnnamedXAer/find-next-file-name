@@ -80,3 +80,11 @@ test('for "./example-test-files/", "whoami.js" return "whoami.js"', () => {
         true
     )).toBe("whoami.js");
 });
+
+test('for "./example-test-files/", "" should throw an error', () => {
+    expect(() => nextFileName(
+        "./example-test-files/", 
+        "",
+        true
+    )).toThrow();
+});

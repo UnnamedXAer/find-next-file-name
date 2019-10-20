@@ -10,6 +10,10 @@ module.exports = function (directory, fileName, continuCounting) {
         _fileName = direcotryTree.pop();
     }
 
+    if (_fileName === "" || _fileName.indexOf(".") === -1) {
+        throw new Error("Wrong file name.");
+    }
+
     const parsedfileName = parse(_fileName);
     let name = parsedfileName.name;
     const ext = parsedfileName.ext;
