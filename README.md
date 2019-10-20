@@ -4,9 +4,9 @@ Add number in parentheses to file name if in specified location a file with give
 ## Usage
 
 ```js
-const findFextFileName = require('find-next-file-name');
+const findNextFileName = require('find-next-file-name');
 
-console.log(findFextFileName(
+console.log(findNextFileName(
     "C:/reports/", 
     "lastmonth.pdf"
 ));
@@ -24,4 +24,4 @@ $ npm install find-next-file-name
 
 ## API
 
-### findFextFileName(directory[, ?filename[, ?continuCounting]])
+### findNextFileName(directory[, ?filename[, ?continuCounting]])
